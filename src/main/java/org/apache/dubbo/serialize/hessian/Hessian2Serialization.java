@@ -27,11 +27,9 @@ import java.io.OutputStream;
 
 public class Hessian2Serialization implements Serialization {
 
-    public static final byte ID = 2;
-
     @Override
     public byte getContentTypeId() {
-        return ID;
+        return 10;
     }
 
     @Override
