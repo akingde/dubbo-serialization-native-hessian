@@ -30,7 +30,7 @@ public class Hessian2ObjectOutput implements ObjectOutput {
 
     public Hessian2ObjectOutput(OutputStream os) {
         output = new Hessian2Output(os);
-        output.setSerializerFactory(Hessian2SerializerFactory.SERIALIZER_FACTORY);
+        output.setSerializerFactory(Hessian2SerializerFactory.INSTANCE);
     }
 
     @Override

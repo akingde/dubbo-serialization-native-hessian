@@ -11,6 +11,7 @@
     <properties>
         <dubbo.version>2.6.1</dubbo.version>
         <hessian.version>4.0.51</hessian.version>
+        <junit.version>4.12</junit.version>
         <source.level>1.8</source.level>
         <target.level>1.8</target.level>
     </properties>
@@ -37,6 +38,13 @@
             <groupId>com.caucho</groupId>
             <artifactId>hessian</artifactId>
             <version>${hessian.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
